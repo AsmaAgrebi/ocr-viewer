@@ -1,9 +1,9 @@
+ray.init(webui_host='127.0.0.1')
 import json
 import asyncio
 import websockets
 import easyocr
 from server_util import readb64, NpEncoder
-ray.init(webui_host='127.0.0.1')
 port = 8999
 
 if __name__ == '__main__':
